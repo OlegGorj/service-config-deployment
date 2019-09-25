@@ -1,8 +1,8 @@
-# Service to manage configuration data (service-config-data)
+# Deployment of service to manage configuration data
 
-[![GitHub release](https://img.shields.io/github/release/OlegGorj/service-config-data.svg)](https://github.com/OlegGorj/service-config-data/releases)
-[![GitHub issues](https://img.shields.io/github/issues/OlegGorj/service-config-data.svg)](https://github.com/OlegGorj/service-config-data/issues)
-[![GitHub commits](https://img.shields.io/github/commits-since/OlegGorj/service-config-data/0.0.1.svg)](https://github.com/OlegGorj/service-config-data)
+[![GitHub release](https://img.shields.io/github/release/OlegGorj/service-config-deployment.svg)](https://github.com/OlegGorj/service-config-deployment/releases)
+[![GitHub issues](https://img.shields.io/github/issues/OlegGorj/service-config-deployment.svg)](https://github.com/OlegGorj/service-config-deployment/issues)
+[![GitHub commits](https://img.shields.io/github/commits-since/OlegGorj/service-config-deployment/0.0.1.svg)](https://github.com/OlegGorj/service-config-deployment)
 
 
 The `service-config-deployment` repo designated to host code and instructions for deploying Configuration Data Service `service-config-data` (https://github.com/OlegGorj/service-config-data) on various Cloud platforms.
