@@ -1,0 +1,16 @@
+{
+  "gcp": [
+    {
+      "project": "fws-hpfp-model-deployments",
+      "cluster": "standard-cluster-4",
+      "region": "us-east1",
+      "zone": "us-east1-b",
+      "nets": "72.231.208.0/24",
+      "k8s_version": "1.13.7-gke.8",
+      "machine_type": "n1-standard-2",
+      "size": "3"
+    }
+
+  ]
+
+}
