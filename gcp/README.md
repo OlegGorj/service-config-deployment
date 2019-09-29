@@ -38,7 +38,6 @@ Configuration file aims to list and describe Kubernetes clusters we're about to 
   ]
 
 }
-
 ```
 
 What this configuration says:
@@ -51,7 +50,7 @@ What this configuration says:
 ### Ask for JWT token
 
 ```
-TOKEN=$(curl --request POST   --url https://service-config-data.auth0.com/oauth/token   --header 'content-type: application/json'   --data '{"client_id":"<client id>","client_secret":"<the_secret>","audience":"https://api.<your domain name>","grant_type":"client_credentials"}' | jq '.access_token' | tr -d '"')
+TOKEN=$(curl --request POST   --url https://<auth0-your-tenat>.auth0.com/oauth/token   --header 'content-type: application/json'   --data '{"client_id":"<client id>","client_secret":"<the_secret>","audience":"https://api.<your domain name>","grant_type":"client_credentials"}' | jq '.access_token' | tr -d '"')
 ```
 
 ### Call the service using the token
